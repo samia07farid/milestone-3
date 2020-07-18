@@ -24,7 +24,6 @@ function woodCalculator(chair, table, bed){
     var bedNumber = bed * 25;
     var totalWoodNeeded = chairNumber + tableNumber + bedNumber;
     return totalWoodNeeded
-               
 }
 
 
@@ -55,7 +54,7 @@ function brickCalculator (floor){
     if(floor > 30){
         console.log('No more than 30 floors')
     }
-     return totalBrickCount;   
+    return totalBrickCount;   
 }
 
 
@@ -76,7 +75,6 @@ function tinyFriend(friendName){
     return sortedStrArray[0];
 }
 var friendName = ['Aklima River Ohniar Rain Myarr Tulip'];
-
 
   
 
